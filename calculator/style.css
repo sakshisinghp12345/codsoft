@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body
+{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background: url("calculator.jpg"); */
+    background-size: 100%;
+}
+
+h2
+{
+    font-family:"Book Antiqua";
+    text-align: center;
+}
+
+h3
+{
+    font-family:"Book Antiqua";
+    text-align: center;
+    background-color: #c5c5ca;
+    border: 2px solid black;
+    margin-bottom: 5%;
+    border-radius: 10px;
+}
+.heading
+{
+    background-color: #c5c5ca;
+    border: 2px solid black;
+    margin-bottom: 5%;
+    border-radius: 10px;
+}
+
+.container
+{
+    border: 5px solid #4b4b4d;
+    padding: 50px;
+    border-radius: 16px;
+    background-image: linear-gradient(to bottom right, rgb(66, 39, 92), rgb(21, 2, 74));
+}
+
+input
+{
+    width: 330px;
+    border: 5px;
+    padding: 20px 35px;
+    background: rgb(160, 196, 234);
+    font-size: 40px;
+    text-align: right;
+    cursor: pointer;
+    
+}
+
+input::placeholder{
+    color: black;
+}
+
+button
+{
+    border: 1px solid #090909;
+    width: 80px;
+    height: 60px;
+    margin: 10px;
+    border-radius: 50%;
+    background: transparent;
+    color: #ffffff;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.operator
+{
+    color: rgb(85, 244, 244);
+}
+
+.new h4{
+    text-align: center;
+    padding-top: 20px;
+}
+.margin
+{
+    margin-top: 10%;
+}    
